@@ -5,9 +5,6 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the
 # even-valued terms.
 
-# Generate Fibonacci sequence where the values are > 4_000_000 in a list
-# x % 2 == 0 for each term to get even numbers
-# sum resulting list
 
 def fib(n, limit: int = 4_000_000):
     """Generates the Fibonacci sequence using Python generators to remove the need for slow
